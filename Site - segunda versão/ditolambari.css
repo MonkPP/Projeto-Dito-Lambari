@@ -1,0 +1,67 @@
+*{margin: 0; padding: 0;}
+
+body {
+    font: 20px arial, san-serif;
+}
+
+div.topo {
+    background: #f8f8f8; 
+    color: #e1ff9a; 
+}
+
+
+
+
+
+
+body::-webkit-scrollbar {
+    width: 17px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #f9f9f9;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color:#8d8d8d;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #f9f9f9;  /* creates padding around scroll thumb */
+  }
+
+
+
+
+
+
+
+
+nav{
+    background-color: rgb(7, 78, 10);
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: rgb(22, 63, 10);
+} 
+nav li {
+    display: inline-block;
+} 
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgb(53, 114, 28);
+  }
+h1{
+    color: black;
+}
+footer{
+    background-image: url(Images/imgfundo.png);
+    height: 200px;
+    width: 500px;
+}
