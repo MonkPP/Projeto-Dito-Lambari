@@ -1,0 +1,38 @@
+.container-fluid, h1, div.box{ 
+    width: 1100px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+div.jumbotron{
+    padding: 0px;
+    border-radius: 0; 
+    margin-bottom: 0px;
+}
+
+nav a{
+    color: #e46512;
+}
+a:hover{
+    color: #e98b4cea;
+    text-decoration: none;
+}
+
+
+
+
+/*scrollbar*/
+body::-webkit-scrollbar {
+    width: 17px;               /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+    background: #f9f9f9;        /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+    background-color:#8d8d8d;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #f9f9f9;  /* creates padding around scroll thumb */
+}
